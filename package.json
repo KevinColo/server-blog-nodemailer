@@ -1,0 +1,36 @@
+{
+  "name": "server-node-blog",
+  "version": "0.0.1",
+  "description": "server posts and nodemailer",
+  "readmeFilename": "README.md",
+  "main": "build/index.js",
+  "author": {
+    "name": "Kévin",
+    "email": "colonna.kevin@gmail.com"
+  },
+  "tags": [
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "typeorm-sample",
+    "typeorm-example",
+    "typeorm-express-example"
+  ],
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/express": "^4.11.1",
+    "@types/node": "^9.6.5",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^4.1.1",
+    "typeorm": "^0.2.21"
+  },
+  "scripts": {
+    "start": "tsc && node build/index.js"
+  }
+}
